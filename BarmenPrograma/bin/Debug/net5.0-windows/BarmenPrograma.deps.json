@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BarmenPrograma/1.0.0": {
+        "runtime": {
+          "BarmenPrograma.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BarmenPrograma/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
