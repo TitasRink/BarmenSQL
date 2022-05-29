@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Titas\\source\\repos\\BarmenPrograma\\BarmenPrograma\\BarmenPrograma.csproj": {}
+    "C:\\Users\\asd\\Source\\Repos\\TitasRink\\BarmenSQL\\BarmenPrograma\\BarmenPrograma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Titas\\source\\repos\\BarmenPrograma\\BarmenPrograma\\BarmenPrograma.csproj": {
+    "C:\\Users\\asd\\Source\\Repos\\TitasRink\\BarmenSQL\\BarmenPrograma\\BarmenPrograma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Titas\\source\\repos\\BarmenPrograma\\BarmenPrograma\\BarmenPrograma.csproj",
+        "projectUniqueName": "C:\\Users\\asd\\Source\\Repos\\TitasRink\\BarmenSQL\\BarmenPrograma\\BarmenPrograma.csproj",
         "projectName": "BarmenPrograma",
-        "projectPath": "C:\\Users\\Titas\\source\\repos\\BarmenPrograma\\BarmenPrograma\\BarmenPrograma.csproj",
-        "packagesPath": "C:\\Users\\Titas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Titas\\source\\repos\\BarmenPrograma\\BarmenPrograma\\obj\\",
+        "projectPath": "C:\\Users\\asd\\Source\\Repos\\TitasRink\\BarmenSQL\\BarmenPrograma\\BarmenPrograma.csproj",
+        "packagesPath": "C:\\Users\\asd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asd\\Source\\Repos\\TitasRink\\BarmenSQL\\BarmenPrograma\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Titas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,16 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Guna.UI2.WinForms": {
+              "target": "Package",
+              "version": "[2.0.3.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
